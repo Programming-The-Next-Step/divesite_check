@@ -6,7 +6,6 @@ Module to retrieve data from the divesites.com API
 """
 
 import requests
-import json
 
 class DiveSite:
     """ Properties of a dive site """

@@ -5,9 +5,7 @@ weather_api.py
 Module to retrieve weather forecast data from the National Weather Service API
 """
 
-import unittest
 import requests
-import json
 
 class WeatherForecast:
     """ Properties of a weather forecast """
