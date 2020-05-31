@@ -7,7 +7,7 @@ Module to retrieve data from the openweathermap API
 import urllib
 import json
 
-appid = "18122c879a2e5e11bfa8b6caab729493"
+appid = "XXX"
 
 class WeatherForecast:
     """ Properties of a weather forecast """
