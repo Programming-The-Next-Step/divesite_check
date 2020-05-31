@@ -82,7 +82,7 @@ server <- function(input, output) {
                     lat = NA,
                     address = "")
     if (input$location != "") {
-      register_google(key = "AIzaSyAmz9ywp4S7zEsonrgN7VhpUQt7tbrmGaY")
+      register_google(key = "XXX")
       lat_lon <-
         geocode(input$location, output = "latlona", source = "google")
     }
